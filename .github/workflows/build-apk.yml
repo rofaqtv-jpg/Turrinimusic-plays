@@ -23,7 +23,7 @@ jobs:
         cache: gradle
 
     - name: Setup Gradle & Generate Wrapper
-      uses: gradle/actions/setup-gradle@v3
+      uses: gradle/actions/setup-gradle@v4
       with:
         gradle-version: 8.7
         
